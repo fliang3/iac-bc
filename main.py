@@ -4,6 +4,7 @@ Main Python application for the IAC-BC project.
 This module demonstrates various Python features and functionality.
 """
 
+import sys
 import asyncio
 import json
 import os
