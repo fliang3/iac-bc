@@ -1,10 +1,7 @@
 using System;
 using System.Threading.Tasks;
-// add new line for main --- IGNORE ---
-
 // add new line for feature branch
 
-// add new line for feature branch
 
 namespace IacBc
 {
