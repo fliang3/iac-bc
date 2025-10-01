@@ -1,0 +1,27 @@
+# Example Terraform variables file
+# Copy this file to terraform.tfvars and customize the values
+
+# Azure region where resources will be deployed
+location = "Canada Central"
+
+# Environment name
+environment = "dev"
+
+# Project name used in resource naming
+project_name = "iac-bc"
+
+# Custom resource group name (optional)
+# resource_group_name = "my-custom-rg-name"
+
+# Storage account configuration
+storage_account_tier = "Standard"
+storage_replication_type = "LRS"
+
+# Additional tags for all resources
+tags = {
+  ManagedBy    = "Terraform"
+  Project      = "IAC-BC"
+  Owner        = "Development Team"
+  CostCenter   = "IT"
+  Environment  = "Development"
+}
