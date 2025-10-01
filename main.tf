@@ -22,7 +22,7 @@ provider "azurerm" {
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "West US"
+  default     = "Canada Central"
 }
 
 variable "environment" {
